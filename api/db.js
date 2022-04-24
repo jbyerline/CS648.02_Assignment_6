@@ -10,7 +10,7 @@ const COLLECTION = {
 };
 
 const url = process.env.DB_URL
-  || 'mongodb+srv://hmac:cs648@cluster0.uimtv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  || 'mongodb+srv://user:MyPassword123@cluster0.agg9o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 async function connectToDb() {
   const client = new MongoClient(url, {
